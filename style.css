@@ -128,18 +128,18 @@ html {
     .card.sec1 {
         background-color: rgb(181, 221, 255);
     }
-
+    
     .sec1 h1 {
         color: rgb(34, 149, 253);
         white-space: nowrap;
         font-size: 1.3rem;
     }
-
+    
     .sec1 p {
         color: rgb(81, 99, 114);
         font-weight: 600;
     }
-
+    
     .sec1 a{
         all: unset;
         background-color: rgb(0, 132, 253);
@@ -151,23 +151,29 @@ html {
         text-align: center;
         width: fit-content;
     }
-
+    
     .sec1 img {
         position: relative;
         margin-bottom: -2rem;
     }
-
+    
     .sec1 .blue-ico {
         color: rgb(14, 132, 251);
         font-size: 5rem;
     }
-
+    
     /* SEZIONE 2 */
-
+    
     section .sec2 {
         background-color: rgb(151, 146, 226);
         max-width: 100%;
         margin-top: 5rem;
+    }
+
+    .sec2 .sub-card1 {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
     }
 
     .sec2 h1 {
@@ -180,12 +186,17 @@ html {
         color: white;
         font-weight: 400;
     }
-    
-    .sub-card2 {
+
+    .sec2 .sub-card2 {
         background-color: white;
         display: flex;
         align-items: center;
         text-align: center;
+        margin: 0 auto 2rem;
+    }
+
+    .sec2 img {
+        width: 100%;
     }
     
     .sub-card2 h1 {
