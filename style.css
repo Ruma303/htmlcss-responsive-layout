@@ -1,5 +1,94 @@
+/* GENERALS STYLE */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* HEADER */
+
+.nav-top {
+    background-color: #0e84fb;
+    height: 4.7rem; 
+}
+
+.nav-top .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.nav-top ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-top .nav-link {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 300;
+    height: 100%;
+    padding: 0 1em;
+}
+
+li:hover .nav-link {
+    background-color: aqua;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.btn.nav-link {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0.5rem;
+    font-weight: 400;
+}
+
+.nav-top .btn:hover {
+    background-color: rgb(176, 241, 241);
+}
+
+/* VERSIONE DESKTOP */
+@media screen and (min-width: 811px) {
+    .mobile-ver {
+        display: none;
+    }
+}
+
+/* VERSIONE TABLET */
+@media screen and (min-width: 375px) {
+    .mobile-ver {
+        display: block;
+    }
+    /* .nav-link {
+        display: none;
+    } */
+}
+
+/* VERSIONE MOBILE */
+/* @media screen and (max-width:0) {
+    .mobile-ver {
+        display: block;
+    }
+    .nav-link {
+        display: none;
+    }
+} */
