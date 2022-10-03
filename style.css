@@ -145,4 +145,13 @@ html {
         position: relative;
         margin-bottom: -2rem;
     }
+
+    .centered {
+        text-align: center;
+    }
+
+    .sec1 .blue-ico {
+        color: rgb(14, 132, 251);
+        font-size: 5rem;
+    }
 }
