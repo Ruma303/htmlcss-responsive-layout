@@ -45,6 +45,7 @@ html {
     .hamburger {
         display: none;
     }
+
     .nav-top ul {
         display: flex;
         list-style: none;
@@ -74,7 +75,6 @@ html {
         background-color: aqua;
     }
     
-    
     .btn{
         all: unset;
         background-color: white;
@@ -92,16 +92,57 @@ html {
 
 
 /* VERSIONE TABLET */
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
 
-} */
+}
 
 /* VERSIONE MOBILE */
-/* @media screen and (max-width:0) {
-    .mobile-ver {
-        display: block;
+@media screen and (max-width:374px) {
+    .container {
+        max-width: 300px;
+        padding: 0;
     }
-    .nav-link {
-        display: none;
+   
+    .card {
+        border-radius: 25px;
+        margin: 3em 0;
+        height: 100%;
+        padding: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
     }
-} */
+
+    .card.sec1 {
+        background-color: rgb(181, 221, 255);
+    }
+
+    .sec1 h1 {
+        color: rgb(34, 149, 253);
+        white-space: nowrap;
+        font-size: 1.3rem;
+    }
+
+    .sec1 p {
+        color: rgb(81, 99, 114);
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    .sec1 a{
+        all: unset;
+        background-color: rgb(0, 132, 253);
+        color: white;
+        border-radius: 25px;
+        padding: 0.5rem 3rem;
+        font-weight: 400;
+        cursor: pointer;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .sec1 img {
+        position: relative;
+        margin-bottom: -2rem;
+    }
+}
