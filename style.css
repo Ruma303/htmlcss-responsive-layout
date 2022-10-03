@@ -101,6 +101,8 @@ html {
     .container {
         max-width: 300px;
         padding: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .centered {
@@ -108,7 +110,7 @@ html {
     }
    
     .card {
-        border-radius: 25px;
+        border-radius: 50px;
         margin: 3em 0;
         height: 100%;
         padding: 2em 1em;
@@ -170,10 +172,8 @@ html {
         margin-top: 5rem;
     }
 
-    .sec2 .sub-card1 {
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
+    .sec2 .card {
+        margin: 0;
     }
 
     .sec2 h1 {
@@ -189,7 +189,6 @@ html {
 
     .sec2 .sub-card2 {
         background-color: white;
-        display: flex;
         align-items: center;
         text-align: center;
         margin: 0 auto 2rem;
@@ -219,4 +218,54 @@ html {
         border-radius: 100%;
         padding: 1rem;
     }
+
+    /* SECTION 3 */
+
+    .sec3.container {
+        margin: 3rem auto;
+        gap: 2rem;
+    }
+
+    .sec3 .card {
+        margin: 0;
+    }
+
+    .sec3 h3 {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .sec3 h1 {
+        font-weight: 600;
+        font-size: 2rem;
+        color: rgb(151, 146, 226);
+    }
+
+    .sec3 p {
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    .sec3 img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    .sec3 .testimonials {
+        background-color: rgb(151, 146, 226);
+        display: flex;
+        align-items: center;
+    }
+    
+    .sec3 .quotes {
+        color: white;
+    }
+
+    .testimonials h3 {
+        color: white;
+        font-weight: 500;
+    }
 }
+
