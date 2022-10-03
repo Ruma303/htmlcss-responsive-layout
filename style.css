@@ -170,26 +170,25 @@ html {
         margin-top: 5rem;
     }
 
-    .sub-card2 {
-        background-color: white;
-    }
-
     .sec2 h1 {
         color: white;
         white-space: nowrap;
         font-size: 2rem;
     }
-
+    
     .sec2 p {
         color: white;
+        font-weight: 400;
     }
-
+    
     .sub-card2 {
+        background-color: white;
+        display: flex;
+        align-items: center;
         text-align: center;
     }
-
+    
     .sub-card2 h1 {
-        text-align: center;
         color: black;
         white-space: nowrap;
         font-size: 1.6rem;
@@ -201,10 +200,9 @@ html {
         font-size: 1.1rem;
     }
 
-    .sub-card2>i {
+    .fa-arrow-down-long {
         color: black;
         background-color: rgb(151, 146, 226);
-        text-align: center;
         width: fit-content;
         font-size: 1rem;
         border-radius: 100%;
