@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    display: flex;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -434,8 +434,6 @@ main {
 }
 
 
-
-
 /* VERSIONE TABLET */
 @media screen and (min-width: 376px) {
     .container {
@@ -447,6 +445,9 @@ main {
     }
     
     /* SECTION 1 */
+
+
+
     .sec1 .card{
         flex: 1 1 calc(33% - 3rem);
     }
@@ -580,9 +581,6 @@ main {
     }
 
     /* FOOTER */
-    footer {
-        
-    }
     
     .footer.container {
         width: 100%;
@@ -604,10 +602,28 @@ main {
 
 /* VERSIONE DESKTOP */
 @media screen and (min-width: 811px) {
+   
+    .nav-top .container,
+    .container.sec1,
+    .container.sec2,
+    .container.sec3,
+    .container.sec4,
+    .container.sec5,
+    .container.sec6,
+    .container.footer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    /* HEADER */
+   
+    
+
     .hamburger {
         display: none;
     }
 
+    
     .nav-top ul {
         display: flex;
         list-style: none;
@@ -649,4 +665,15 @@ main {
     .nav-top .btn:hover {
         background-color: rgb(86, 255, 176);
     }
+
+    /* SECTION 1 */
+
+
+    /* SECTION 2 */
+
+    /* .container.sec1 {
+        max-width: 1000px;
+        justify-content: center;
+        margin: 0 auto;
+    } */
 }
