@@ -306,7 +306,7 @@ main {
         font-weight: 400;
     }
 
-    .sub-card2.card {
+    .sub-card2 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -315,10 +315,9 @@ main {
     }
 
     .sub-card2 img {
-        border-radius: 50%;
+        clip-path: circle(closest-side at center);
         width: 200px;
         height: 200px;
-        overflow: none;
     }
 
     .sub-card2 .fa-quote-left {
@@ -501,7 +500,6 @@ main {
     
     .sec3 img {
         width: 130px;
-        /* height: 130px; */
         flex: 1 0 30%;
     }
 
@@ -538,16 +536,30 @@ main {
     /* SEZIONE 5 */
 
     .container.sec5 {
-        display: flex;
         flex-direction: row;
+        margin: 3rem 2rem 5rem;
+        gap: 
+        4rem;
     }
 
-    .sec5.sub-card1{
+    .sec5 .sub-card1{
         flex-direction: column;
+        flex: 1 1 60%;
     }
 
-    .sec5.sub-card2{
+    .sec5 .sub-card2{
+        display: flex;
         flex-direction: column;
+        flex: 1 1 25%;
+        gap: 2rem;
+    }
+
+    .sec5 h1 {
+        font-size: 4rem;
+    }
+
+    .sec5 p {
+        line-height: 2.5rem;
     }
 
     /* SECTION 6 */
@@ -612,13 +624,10 @@ main {
     }
     
     /* HEADER */
-   
-    
 
     .hamburger {
         display: none;
     }
-
     
     .nav-top ul {
         display: flex;
@@ -664,12 +673,10 @@ main {
 
     /* SECTION 1 */
 
+    
+
 
     /* SECTION 2 */
 
-    /* .container.sec1 {
-        max-width: 1000px;
-        justify-content: center;
-        margin: 0 auto;
-    } */
+
 }
