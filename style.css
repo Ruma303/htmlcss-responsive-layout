@@ -509,6 +509,25 @@ main {
         left: 210px;
         bottom: 50px;
     }
+
+    /* SECTION 4 */
+
+    .sec4.container  {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #sec4-title {
+        white-space: nowrap;
+        font-size: 2.5rem;
+    }
+
+    .sec4 .sub-card4 {
+        flex: 1 1 calc(50% - 5rem);
+    }
+
 }
 
 
