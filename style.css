@@ -19,10 +19,6 @@ main {
     margin-top: 4.7rem;
 }
 
-/* section {
-    margin: 0;
-} */
-
 /* HEADER */
 
 .nav-top {
@@ -211,11 +207,11 @@ main {
     }
 
     .sec3 img {
-        width: 200px;
-        height: 200px;
+        /* width: 200px;
+        height: 200px; */
         object-fit: cover;
         /* border-radius: 100%; */
-        clip-path: circle(50%);
+        clip-path: circle(closest-side at center);;
         overflow: hidden;
     }
 
