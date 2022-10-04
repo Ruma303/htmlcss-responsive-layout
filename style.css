@@ -18,6 +18,11 @@ html {
 main {
     margin-top: 4.7rem;
 }
+
+/* section {
+    margin: 0;
+} */
+
 /* HEADER */
 
 .nav-top {
@@ -150,7 +155,6 @@ main {
         background-color: white;
         align-items: center;
         text-align: center;
-        margin: 0 auto 2rem;
     }
 
     .sec2 img {
@@ -454,6 +458,24 @@ main {
         padding: 0;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .sec2 .sub-card1 {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .sec2 h1 {
+        font-size: 4rem;
+    }
+
+    .sec2 .sub-card2 {
+        margin: 1rem;
+        padding: 2rem;
+    } 
+
+    .sub-card2 h1 {
+        font-size: 2rem;
     }
     
     /* SECTION 3  */
