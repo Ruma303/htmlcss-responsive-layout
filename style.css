@@ -556,10 +556,28 @@ main {
     /* SECTION 6 */
 
     .sec6.container {
-        padding: 5rem;
+        padding: 3rem 5rem;
+        gap: 2rem;
     }
 
-    
+    .sec6 h2{
+        font-size: 2.5rem;
+        white-space: nowrap;
+    }
+
+    .sec6 h1{
+        font-size: 5rem;
+        white-space: nowrap;
+    }
+
+    .sec6 p{
+        font-size: 1em;
+        padding: 0 3rem;
+    }
+
+    .sec6 a{
+        padding: 2rem 5rem;
+    }
 
 }
 
