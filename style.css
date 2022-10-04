@@ -20,6 +20,11 @@ html {
 .nav-top {
     background-color: #0e84fb;
     height: 4.7rem; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
 }
 
 .nav-top .container {
@@ -89,8 +94,6 @@ html {
     }
 }
 
-
-
 /* VERSIONE TABLET */
 @media screen and (min-width: 375px) {
 
@@ -124,12 +127,19 @@ html {
         font-weight: 600;
     }
 
+    /* HEADER */
+
+    .nav-top .container {
+        flex-direction: row;
+    }
+
     /* SEZIONE 1 */
 
     .card.sec1 {
         background-color: rgb(181, 221, 255);
+        margin: 1rem auto;
     }
-    
+
     .sec1 h1 {
         color: rgb(34, 149, 253);
         white-space: nowrap;
@@ -156,6 +166,7 @@ html {
     .sec1 img {
         position: relative;
         margin-bottom: -2rem;
+        width: 100%;
     }
     
     .sec1 .blue-ico {
@@ -458,9 +469,5 @@ html {
     .footer a {
         color: rgb(151, 146, 226);
     }
-
-
-
-
 }
 
