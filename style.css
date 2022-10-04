@@ -122,7 +122,6 @@ html {
     p {
         line-height: 1.8rem;
         font-weight: 600;
-
     }
 
     /* SEZIONE 1 */
@@ -320,7 +319,145 @@ html {
         width: fit-content;
     }
 
+    /* SECTION 5 */
 
+    .container.sec5 {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .sec5 h1 {
+        color: rgb(151, 146, 226);
+        font-size: 2.5rem;
+    }
+
+    .sec5 p {
+        font-weight: 400;
+    }
+
+    .sub-card5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .sub-card5 img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        overflow: none;
+    }
+
+    .sub-card5 .fa-quote-left {
+        font-size: 4rem;
+        color: rgb(151, 146, 226);
+        position: absolute;
+        top: 1rem;
+        left: 160px;
+    } 
+
+    .sub-card5 h2 {
+        color: rgb(151, 146, 226);
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .sub-card5 a {
+        width: fit-content;
+        background-color: rgb(151, 146, 226);
+        color: white;
+        text-decoration: none;
+        border-radius: 3rem;
+        padding: 0.5rem 1.2em;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    /* SECTION 6 */
+
+    .container.sec6 {
+        background-color: rgb(151, 146, 226);
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin: 0 0;
+        max-width: 100%;
+        align-items: center;
+        padding: 4rem 2rem;
+        color: white;
+        text-align: center;
+    }
+
+    .sec6 h3 {
+        text-transform: uppercase;
+        color: rgb(211, 210, 242);
+        font-weight: 300;
+    }
+
+    .sec6 h2 {
+        font-size: 1.6rem;
+        line-height: 2.3rem;
+    }
+
+    .sec6 h1 {
+        color: rgb(252, 192, 97);
+        font-size: 3.5em;
+    }
+
+    .sec6 p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+    }
+
+    .sec6 a {
+        width: fit-content;
+        color: rgb(151, 146, 226);
+        background-color: white;
+        text-decoration: none;
+        border-radius: 3rem;
+        padding: 1rem 5em;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .sec6 h5 {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    #privacy {
+        all: unset;
+        text-decoration: underline;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    /* FOOTER */
+
+    .footer.container {
+        background-color: rgb(50, 50, 50);
+        max-width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+        text-align: center;
+        gap: 5em;
+    }
+    
+    footer p {
+        /* font-size: 0.9rem; */
+        font-weight: 300;
+        line-height: 1.2rem;
+    }
+
+    .footer a {
+        color: rgb(151, 146, 226);
+    }
 
 
 
