@@ -87,8 +87,19 @@ main {
 
     /* SEZIONE 1 */
 
+    .container .sec1 {
+        margin: 2rem;
+    }
+
+    .double-width .sub1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
    .sec1 .card {
         background-color: rgb(181, 221, 255);
+        padding: 2rem;
     }
 
     .sec1 h1 {
@@ -182,7 +193,8 @@ main {
     /* SECTION 3 */
 
     .sec3.container {
-        margin: 3rem auto;
+        max-width: 100%;
+        margin: 3rem 2rem;
         gap: 2rem;
     }
 
@@ -207,10 +219,9 @@ main {
     }
 
     .sec3 img {
-        /* width: 200px;
-        height: 200px; */
+        width: 200px;
+        height: 200px;
         object-fit: cover;
-        /* border-radius: 100%; */
         clip-path: circle(closest-side at center);;
         overflow: hidden;
     }
@@ -287,8 +298,8 @@ main {
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        width: 100%;
-        padding: 0 1em;
+        max-width: 100%;
+        margin: 2rem;
     }
 
     .sec5 .sub-card1 {
@@ -312,20 +323,21 @@ main {
         justify-content: flex-start;
         position: relative;
         margin: 0;
+        gap: 2rem;
     }
 
     .sub-card2 img {
         clip-path: circle(closest-side at center);
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
     .sub-card2 .fa-quote-left {
         font-size: 4rem;
         color: rgb(151, 146, 226);
         position: absolute;
-        top: 1rem;
-        left: 160px;
+        top: 0;
+        left: 130px;
     } 
 
     .sub-card2 h2 {
@@ -408,7 +420,7 @@ main {
     /* FOOTER */
     .footer.container {
         background-color: rgb(50, 50, 50);
-        max-width: 100%;
+        /* max-width: 100%; */
         color: white;
         display: flex;
         flex-direction: column;
@@ -591,7 +603,7 @@ main {
     /* FOOTER */
     
     .footer.container {
-        width: 100%;
+        max-width: 100%;
         padding: 3rem 10rem;
     }
 
@@ -673,8 +685,24 @@ main {
 
     /* SECTION 1 */
 
-    
+    .container.sec1 {
+        margin: 7rem 3rem 3rem;
+    }
 
+    .sec1.double-width {
+        display: flex;
+        flex: row;
+        gap: 2rem;
+    }
+
+    .double-width .sub1 {
+        flex-basis: 50%;
+    }
+
+
+    .double-width .sub2 {
+        flex-basis: 50%;
+    }
 
     /* SECTION 2 */
 
