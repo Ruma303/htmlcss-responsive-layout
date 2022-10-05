@@ -240,10 +240,17 @@ main {
         content:'/f10d';
     } */
 
-    .testimonials h3 {
+    .tizio {
         color: white;
         font-weight: 500;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 2rem;
     }
+
+
+
+
 
     /* SECTION 4  */
 
@@ -382,9 +389,10 @@ main {
         text-align: center;
     }
 
-    .sec6.container {
+    .sec6-container {
         max-width: 100%;
-        justify-content: center;
+        display: flex;
+        align-items: center;
     }
     
     .sec6-container {
@@ -419,7 +427,7 @@ main {
     }
     
     .sec6 a {
-        text-align: center;
+        white-space: nowrap;
         width: fit-content;
         color: rgb(151, 146, 226);
         background-color: white;
@@ -435,9 +443,6 @@ main {
         font-weight: 400;
     }
 
-    .sec6 .btn {
-        text-align: center;
-    }
 
     #privacy {
         all: unset;
@@ -552,28 +557,21 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding:1rem;
+        padding:2rem;
         align-items: center;
-        position: relative;
         height: max-content;   
         margin: 0 2rem; 
     }
     
     .sec3 img {
-        width: 130px;
+        width: 100%;
         flex: 1 0 30%;
     }
 
     .sec3 .quotes {
-        flex: 1 1 60%;
+        flex: 0 0 50%;
         font-size: 1rem;
         text-align: left;
-    }
-
-    .tizio {
-        position: absolute;
-        left: 260px;
-        bottom: 30px;
     }
 
     /* SECTION 4 */
