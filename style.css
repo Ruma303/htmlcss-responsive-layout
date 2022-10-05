@@ -166,6 +166,11 @@ main {
     }
 
     .sec2 img {
+        max-width: 100%;
+    }
+    
+    .sub-card2.card img {
+        all: unset;
         width: 100%;
     }
     
@@ -222,7 +227,7 @@ main {
         width: 200px;
         height: 200px;
         object-fit: cover;
-        clip-path: circle(closest-side at center);;
+        clip-path: circle(closest-side at center);
         overflow: hidden;
     }
 
@@ -518,10 +523,9 @@ main {
         margin: 0;
         gap: 2rem;
     }
-    
-    .sec2 .container-sec2 {
-        max-width: 100%;
 
+    .sec2 .container-sec2 {
+      padding: 2rem;  
     }
 
     .sec2 .card {
@@ -534,17 +538,23 @@ main {
         padding: 0;
     }
 
-    .sec2 h1 {
-        font-size: 3rem;
+    .sec2 .sub-card1 h1 {
+        font-size: 2rem;
+        justify-self: flex-start;
+    }
+
+    .sec2 p {
+        font-size: 0.9rem;
     }
 
     .sec2 .sub-card2 {
         margin: 1rem;
         padding: 2rem;
+        font-size: 1rem;
     } 
 
-    .sub-card2 h1 {
-        font-size: 2rem;
+    .sec2 .sub-card2 h1 {
+        font-size: 1.3rem;
     }
     
     /* SECTION 3  */
@@ -769,16 +779,15 @@ main {
 
     .sec1.double-width {
         display: flex;
-        flex-direction: row;
-        gap: 2rem;
+        flex-wrap: wrap;
     }
 
-    .double-width .sub1 {
-        flex-basis: 48%;
+    .card.double-width .sub1 {
+        flex: 1 1 30%;
     }
 
-    .double-width .sub2 {
-        flex-basis: 48%;
+    .card.double-width .sub2 {
+        flex: 1 1 30%;
     }
 
     /* SECTION 2 */
@@ -816,10 +825,11 @@ main {
         text-align: left;
     }
 
-    /* .sec2 .sub-card2 {
-        max-height: 500px;
-    } */
-
+    .sec2 .container-sec2 {
+        max-width: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
     /* SECTION 3 */
 
     .sec3.container {
