@@ -236,6 +236,10 @@ main {
         color: white;
     }
 
+    /* .quotes::before {
+        content:'/f10d';
+    } */
+
     .testimonials h3 {
         color: white;
         font-weight: 500;
@@ -248,6 +252,12 @@ main {
         margin: 3rem 0;
         max-width: 100%;
         padding: 4em 2em;
+        gap: 3rem;
+    }
+
+    .sec4-container {
+        display: flex;
+        flex-wrap: wrap;
         gap: 3rem;
     }
     
@@ -372,29 +382,44 @@ main {
         text-align: center;
     }
 
+    .sec6.container {
+        max-width: 100%;
+        justify-content: center;
+    }
+    
+    .sec6-container {
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
     .sec6 h3 {
         text-transform: uppercase;
         color: rgb(211, 210, 242);
         font-weight: 300;
     }
-
+    
     .sec6 h2 {
         font-size: 1.6rem;
         line-height: 2.3rem;
     }
-
+    
     .sec6 h1 {
         color: rgb(252, 192, 97);
         font-size: 3.5em;
     }
-
+    
     .sec6 p {
         font-size: 0.8rem;
         line-height: 1.5rem;
         font-weight: 400;
     }
-
+    
     .sec6 a {
+        text-align: center;
         width: fit-content;
         color: rgb(151, 146, 226);
         background-color: white;
@@ -410,6 +435,10 @@ main {
         font-weight: 400;
     }
 
+    .sec6 .btn {
+        text-align: center;
+    }
+
     #privacy {
         all: unset;
         text-decoration: underline;
@@ -420,13 +449,18 @@ main {
     /* FOOTER */
     .footer.container {
         background-color: rgb(50, 50, 50);
-        /* max-width: 100%; */
         color: white;
         display: flex;
         flex-direction: column;
         padding: 3rem 2rem;
         text-align: center;
         gap: 5em;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
     }
     
     footer p {
@@ -453,6 +487,12 @@ main {
     
     /* SECTION 1 */
 
+    .sec1-container {
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     
     .sec1 .card{
         flex: 1 1 calc(33% - 3rem);
@@ -474,8 +514,12 @@ main {
         gap: 2rem;
     }
     
-    .sec2 .card {
+    .sec2 .container-sec2 {
         max-width: 100%;
+
+    }
+
+    .sec2 .card {
         margin: 0;
         padding: 0;
     }
@@ -486,7 +530,7 @@ main {
     }
 
     .sec2 h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .sec2 .sub-card2 {
@@ -534,11 +578,21 @@ main {
 
     /* SECTION 4 */
 
-    .sec4.container  {
+    .sec4.container {
+        max-width: 100%;
         display: flex;
         justify-content: center;
-        flex-direction: row;
+    }
+
+    .sec4-container {
+        display: flex;
         flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .sec4-container .cards {
+        flex: 0 1 calc(33% - 6rem);
     }
     
     #sec4-title {
@@ -584,11 +638,17 @@ main {
     .sec6.container {
         padding: 3rem 5rem;
         gap: 2rem;
+        max-width: 100%;
+
+    }
+    
+    .sec6-container {
+        max-width: 100%;
+        
     }
 
     .sec6 h2{
         font-size: 2.5rem;
-        white-space: nowrap;
     }
 
     .sec6 h1{
@@ -613,6 +673,12 @@ main {
         padding: 3rem 10rem;
         margin: 0;
     }
+
+    /* .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    } */
 
     .footer p {
         font-size: .9rem;
@@ -699,22 +765,22 @@ main {
         max-width: 100%;
     }
 
-    /* .sec1 .card {
-        max-width: 800px;
-    } */
+    .sec1-container {
+        max-width: 1000px;
+    }
 
     .sec1.double-width {
         display: flex;
-        flex: row;
+        flex-direction: row;
         gap: 2rem;
     }
 
     .double-width .sub1 {
-        flex-basis: 50%;
+        flex-basis: 48%;
     }
 
     .double-width .sub2 {
-        flex-basis: 50%;
+        flex-basis: 48%;
     }
 
     /* SECTION 2 */
@@ -722,25 +788,39 @@ main {
     .sec2.container {
         margin: 0;
         max-width: 100%;
+        padding: 3rem;
+    }
+    
+    .container-sec2 {
         display: flex;
+        width: 1000px;
         justify-content: center;
     }
-
+    
     .sec2 .card{
         display: flex;
         flex-direction: row;
-        /* flex-wrap: wrap; */
-        max-width: 800px;
-        flex: 0 1 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
     }
 
     .sec2 .sub-card1 {
-        flex: 0 1 10%;
+        flex-basis: 30%;
     }
 
     .sec2 .sub-card2{
-        flex: 0 1 30%;
+        flex-basis: 30%;
     }
+
+    .sec2 h1{
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    /* .sec2 .sub-card2 {
+        max-height: 500px;
+    } */
 
     /* SECTION 3 */
 
@@ -748,4 +828,58 @@ main {
         margin-bottom: 5rem;
     }
 
-}
+    /* SECTION 4 */
+
+    .sec4.container {
+        /* margin: 5rem; */
+        max-width: 100%;
+    }
+
+    .sec4-container .cards {
+        flex: 0 1 calc(33% - 6rem);
+    }
+
+    /* SECTION 5 */
+
+    .sec5.container {
+        max-width: 100%;
+        margin: 3rem;
+        justify-content: center;
+    }
+
+    .sec5-container {
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    /* SECTION 6 */
+
+    .sec6.container {
+        max-width: 100%;
+    }
+
+    .sec6-container {
+        max-width: 1000px;
+    }
+
+    .sec6-container p {
+        padding: 0 18rem;;
+    }
+
+    /* FOOTER */
+    
+    .container.footer {
+        max-width: 100%;
+        margin:0;
+    }
+    
+    .footer-container {
+        padding: 0 5rem;
+        max-width: 1000px;
+        gap: 5rem;
+    }
+    
+} 
+
