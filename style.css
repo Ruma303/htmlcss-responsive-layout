@@ -453,8 +453,7 @@ main {
     
     /* SECTION 1 */
 
-
-
+    
     .sec1 .card{
         flex: 1 1 calc(33% - 3rem);
     }
@@ -469,15 +468,21 @@ main {
     
     /* SECTION 2 */
     
-    .container .sec2 {
-        padding: 0;
+    .sec2.container {
         max-width: 100%;
-        margin: 0 auto;
+        margin: 0;
+        gap: 2rem;
+    }
+    
+    .sec2 .card {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .sec2 .sub-card1 {
         margin: 0;
-        padding: 2rem;
+        padding: 0;
     }
 
     .sec2 h1 {
@@ -496,7 +501,7 @@ main {
     /* SECTION 3  */
 
     .sec3 .card {
-        margin: 0 auto;
+        margin: 0;
     }
 
     .testimonials.centered {
@@ -601,10 +606,12 @@ main {
     }
 
     /* FOOTER */
-    
+
+
     .footer.container {
         max-width: 100%;
         padding: 3rem 10rem;
+        margin: 0;
     }
 
     .footer p {
@@ -687,7 +694,14 @@ main {
 
     .container.sec1 {
         margin: 7rem 3rem 3rem;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
     }
+
+    /* .sec1 .card {
+        max-width: 800px;
+    } */
 
     .sec1.double-width {
         display: flex;
@@ -699,12 +713,39 @@ main {
         flex-basis: 50%;
     }
 
-
     .double-width .sub2 {
         flex-basis: 50%;
     }
 
     /* SECTION 2 */
 
+    .sec2.container {
+        margin: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec2 .card{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        max-width: 800px;
+        flex: 0 1 10%;
+    }
+
+    .sec2 .sub-card1 {
+        flex: 0 1 10%;
+    }
+
+    .sec2 .sub-card2{
+        flex: 0 1 30%;
+    }
+
+    /* SECTION 3 */
+
+    .sec3.container {
+        margin-bottom: 5rem;
+    }
 
 }
